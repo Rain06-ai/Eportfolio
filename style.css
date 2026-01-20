@@ -197,7 +197,6 @@ nav .right a span {
     align-items: center;
     gap: 20px;
 
-    width: 1300px;
     padding: 15px 20px;
     margin: 10px;
     border: 1.5px solid #9f5959;
@@ -222,7 +221,6 @@ nav .right a span {
     align-items: center;
     gap: 30px;
 
-    width: 1300px;
     padding: 15px 20px;
     margin: 10px auto;
     border: 1.5px solid #b78484;
@@ -290,4 +288,47 @@ nav .right a span {
     .hero-section .text h2 {
         font-size: 30px;
     }
+
+}
+
+@media (max-width:740px ){
+    /*ACADEMIC*/
+    .academic-section{
+        padding: 0 2px;
+    }
+
+    .academic-section .academic-cells .academic-detail{
+        width: 100%;
+        max-width: 100%;
+        gap: 15px;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .academic-section .academic-cells .academic-detail i{
+        flex-shrink: 0;
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width:740px ){
+    /*ASSIGNMENT*/
+    .assignment-section{
+        padding: 0 2px;
+    }
+
+    .assignment-section .assg-cells{
+        width: 100%;
+        max-width: 100%;
+        gap: 15px;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .assignment-section .assg-cells i{
+        flex-shrink: 0;
+        font-size: 22px;
+    }
+
 }
